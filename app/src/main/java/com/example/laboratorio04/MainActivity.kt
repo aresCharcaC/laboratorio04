@@ -21,15 +21,14 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Laboratorio04Theme {
-                app()
+                appp()
             }
         }
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun app() {
+fun appp() {
 
 }
 
@@ -37,6 +36,6 @@ fun app() {
 @Composable
 fun GreetingPreview() {
     Laboratorio04Theme {
-        app()
+        appp()
     }
 }
