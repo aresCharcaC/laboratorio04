@@ -71,7 +71,18 @@ fun app() {
                 .padding(innerPadding)
                 .fillMaxSize(),
         ) {
-            
+            Image(
+                painter = painterResource(id = R.drawable.mahoraga),
+                contentDescription = "mahoraga",
+                modifier = Modifier
+                    .size(200.dp)
+                    .padding(bottom = 16.dp)
+            )
+            Text(
+                text = "Imagen de Mahoraga",
+                modifier = Modifier.padding(top = 8.dp),
+                textAlign = TextAlign.Center
+            )
         }
     }
 }
