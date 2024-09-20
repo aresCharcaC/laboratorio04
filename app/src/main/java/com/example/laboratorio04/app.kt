@@ -72,7 +72,7 @@ fun app() {
             Modifier
                 .padding(innerPadding)
                 .fillMaxSize()
-                .background(Color.Green),
+                .background(Color.Gray),
 
         ) {
             Image(
