@@ -75,7 +75,7 @@ fun app() {
                 painter = painterResource(id = R.drawable.mahoraga),
                 contentDescription = "mahoraga",
                 modifier = Modifier
-                    .size(200.dp)
+                    .size(400.dp)
                     .padding(bottom = 16.dp)
             )
             Text(
